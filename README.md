@@ -1,4 +1,4 @@
-# CUDA Accelerated Deep FNN based Approach for Multi-Class ECG Classification in Arrhythmia Detection
+# CUDA Accelerated D-FNN based Approach for Multi-Class ECG Classification in Arrhythmia Detection
 
 ## Project Overview
 
@@ -52,6 +52,21 @@ We used the MIT-BIH Arrhythmia Dataset from the PhysioNet database, which includ
 - NVIDIA GPU (e.g., NVIDIA Jetson Nano, RTX 4070, GTX 1650)
 - Python 3.3 or later
 - NumPy
+
+### Download Prerequisite Files
+
+Download the necessary files from the following Google Drive link:
+
+[Google Drive Link](https://drive.google.com/file/d/1I-g5HBt-D4Cm0ARnRAWOFbrNliJT9RzM/view?usp=drive_link)
+
+Extract the downloaded files to the project in accordance to the below folder structure.
+
+```sh
+data/
+└── Dataset_Wave_1/
+models_ml/
+images_mlp/
+```
 
 ### Environment Variables
 
